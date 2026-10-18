@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#game{
+    height: 50vh;
+    width: 50vh;
+    background-color: white;
+    position: relative;
+}
+
+.pixel{
+    position: absolute;
+    width:10%;
+    height:10%;
+    background-color: red;
+}
+
+.apple{
+    background-color: red;
+}
+
+.snake{
+    background-color: green;
+}
